@@ -1,0 +1,28 @@
+.cart-list {
+  width: 100%;
+  padding-top: 2rem;
+
+  &__remove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 1.2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+
+    &:active {
+      transform: scale(.9);
+    }
+  }
+
+  &__items {
+    padding-top: 1rem;
+  }
+}
